@@ -1,0 +1,11 @@
+Name of Quantlet: CAR_events_Scholes_Williams
+
+Published in: ETH event study
+
+Description: This Python notebook repeats the Ethereum event study using the Scholes-Williams beta, which corrects for thin trading and non-synchronous price formation. For each event date it regresses ETH log returns on the lagged, contemporaneous and leading CRIX log returns over the pre-event estimation window and averages the three slope coefficients into a single corrected beta. This beta drives the expected returns, abnormal returns, cumulative abnormal returns and 95 percent confidence bands over the same event window as the OLS specification, allowing a direct comparison of the two beta estimators. The CAR grid is plotted per event and the estimation results and abnormal returns are written to the shared Data folder.
+
+Keywords: Scholes-Williams beta, thin trading, event study, cumulative abnormal returns, CAR, lead-lag regression, Ethereum, CRIX
+
+Author: Ștefan Găman
+
+Submitted: 17 August 2026

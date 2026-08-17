@@ -1,0 +1,11 @@
+Name of Quantlet: ETH_abnormal_returns_market_model
+
+Published in: ETH event study
+
+Description: This Python notebook estimates the single-factor market model for Ethereum over the full sample. It reads the merged ETH and CRIX log returns from the shared Data folder and fits an OLS regression of ETH returns on CRIX returns, reporting the estimated alpha and beta. Expected returns are then computed from the fitted model and subtracted from realised returns to obtain daily abnormal returns, which are written back to the Data folder and plotted alongside the raw ETH return series with the event dates marked.
+
+Keywords: market model, OLS, abnormal returns, Ethereum, CRIX, beta, event study
+
+Author: Ștefan Găman
+
+Submitted: 17 August 2026

@@ -1,0 +1,11 @@
+Name of Quantlet: QQ_plot
+
+Published in: ETH event study
+
+Description: This Python notebook tests the distributional assumptions behind the ETH market model and continues the analysis of the abnormal return series. It loads the market model results from the shared Data folder, reports descriptive statistics together with skewness and kurtosis, and standardises the abnormal returns. A quantile-quantile plot against the theoretical normal distribution is produced and complemented by Shapiro-Wilk, Kolmogorov-Smirnov and Jarque-Bera normality tests, each reported with its test statistic, p-value and verdict at the five percent level.
+
+Keywords: QQ plot, normality test, Shapiro-Wilk, Kolmogorov-Smirnov, Jarque-Bera, abnormal returns, skewness, kurtosis
+
+Author: Ștefan Găman
+
+Submitted: 17 August 2026

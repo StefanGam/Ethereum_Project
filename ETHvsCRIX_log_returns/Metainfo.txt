@@ -1,0 +1,11 @@
+Name of Quantlet: ETHvsCRIX_log_returns
+
+Published in: ETH event study
+
+Description: This Python notebook builds the master return dataset for the ETH event study. It loads daily cryptocurrency closing prices and the CRIX index from the shared Data folder, converts both to daily logarithmic returns, reindexes CRIX onto a complete daily calendar and replaces backfill artefacts (returns of exactly zero) with the contemporaneous Bitcoin log return. The merged panel is saved to the Data folder as the common input for all downstream notebooks, and the ETH and CRIX return series are plotted together with vertical markers at the 15 event dates.
+
+Keywords: Ethereum, CRIX, log returns, data preparation, cryptocurrency, time series, event dates
+
+Author: Ștefan Găman
+
+Submitted: 17 August 2026

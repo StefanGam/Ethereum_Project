@@ -1,0 +1,11 @@
+Name of Quantlet: ETHvsCRIX_scatter_plot
+
+Published in: ETH event study
+
+Description: This Python notebook visualises the co-movement between Ethereum and the CRIX market index. It reads the merged log return panel from the shared Data folder and builds an animated scatter plot of ETH log returns against CRIX log returns that grows chronologically, with points coloured by date and a date-labelled colorbar on fixed equal-aspect axes. The animation shows how the ETH-market relationship evolves over the 2017-2024 sample and is exported as an animated GIF.
+
+Keywords: Ethereum, CRIX, scatter plot, animation, log returns, co-movement, visualisation
+
+Author: Ștefan Găman
+
+Submitted: 17 August 2026

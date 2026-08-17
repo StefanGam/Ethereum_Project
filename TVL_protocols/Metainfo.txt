@@ -1,0 +1,11 @@
+Name of Quantlet: TVL_protocols
+
+Published in: ETH event study
+
+Description: This Python notebook describes the evolution of value locked across blockchain networks. It loads the chain-level total value locked history from the shared Data folder, coerces the series to numeric values and treats missing observations as zero, then ranks the chains by average TVL and selects the ten largest. The selected chains are displayed as a stacked area chart of TVL in US dollars over time, showing the growing share of Ethereum competitors in the decentralised finance ecosystem.
+
+Keywords: total value locked, TVL, DeFi, blockchain, Ethereum, stacked area chart, descriptive analysis
+
+Author: Ștefan Găman
+
+Submitted: 17 August 2026

@@ -1,0 +1,11 @@
+Name of Quantlet: CRIX_return_betas_time_varying
+
+Published in: ETH event study
+
+Description: This Python notebook estimates time-varying sensitivities of Ethereum returns to the CRIX market index. Using a 30-day rolling window over the return series from the shared Data folder, it fits quantile regressions of ETH returns on CRIX returns at the 10, 50 and 90 percent quantiles and collects the resulting rolling intercept and slope paths. The average upper-quantile beta in a short window following each event date is also computed, and the three rolling beta series are plotted with the event dates marked.
+
+Keywords: quantile regression, rolling window, time-varying beta, CRIX, Ethereum, tail dependence
+
+Author: Ștefan Găman
+
+Submitted: 17 August 2026

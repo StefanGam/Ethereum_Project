@@ -1,0 +1,11 @@
+Name of Quantlet: CAR_events
+
+Published in: ETH event study
+
+Description: This Python notebook performs the event study on Ethereum returns using OLS market model betas. For each of the 15 event dates it estimates alpha and beta by regressing ETH log returns on CRIX log returns over a pre-event estimation window, reporting residual standard error, number of observations and R-squared. Abnormal returns and cumulative abnormal returns are then computed over an aligned event window running from three days before to 21 days after each event, together with 95 percent confidence bands. The per-event CAR paths are plotted as a grid with shaded confidence intervals, and the estimation results, event-window returns and abnormal returns are saved to the shared Data folder.
+
+Keywords: event study, cumulative abnormal returns, CAR, market model, OLS, Ethereum, CRIX, estimation window
+
+Author: Ștefan Găman
+
+Submitted: 17 August 2026
